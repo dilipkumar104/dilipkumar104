@@ -60,6 +60,11 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.classList.remove('scrolled');
         }
 
+        // Scroll-driven color transition: lavender intensifies as you scroll
+        const scrollPercent = Math.min(window.scrollY / (document.documentElement.scrollHeight - window.innerHeight), 1);
+        const lavenderIntensity = 0.4 + scrollPercent * 0.6; // 0.4 to 1.0
+        document.documentElement.style.setProperty('--scroll-intensity', lavenderIntensity);
+
         // Active nav link
         let current = '';
         sections.forEach(section => {
@@ -82,6 +87,23 @@ document.addEventListener('DOMContentLoaded', () => {
         } else {
             backToTop.classList.remove('show');
         }
+
+        // Scroll animation on cards
+        const allCards = document.querySelectorAll('.edu-card, .project-card, .skill-category, .timeline-item');
+        allCards.forEach(card => {
+            const rect = card.getBoundingClientRect();
+            const cardCenter = rect.top + rect.height / 2;
+            const viewportCenter = window.innerHeight / 2;
+            const distance = Math.abs(cardCenter - viewportCenter);
+
+            if (distance < 200) {
+                card.classList.add('scroll-animate');
+                card.style.transform = `scale(${1 + (1 - distance / 200) * 0.03})`;
+            } else {
+                card.classList.remove('scroll-animate');
+                card.style.transform = 'scale(1)';
+            }
+        });
     }
     window.addEventListener('scroll', handleScroll);
     handleScroll();

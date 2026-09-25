@@ -35,6 +35,20 @@
     --font-heading: 'Outfit', sans-serif;
     --font-body: 'Inter', sans-serif;
     --font-mono: 'JetBrains Mono', monospace;
+    --scroll-intensity: 0.4;
+}
+
+/* Dynamic scroll-driven lavender intensification */
+body {
+    font-family: var(--font-body);
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    line-height: 1.7;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    --bg-primary: rgb(13, 10, calc(20 + var(--scroll-intensity) * 8));
+    --accent-blue: hsl(250, calc(75% + var(--scroll-intensity) * 10%), calc(70% + var(--scroll-intensity) * 5%));
+    --border-glass: rgba(196, 181, 253, calc(0.18 + var(--scroll-intensity) * 0.15));
 }
 
 /* ============ RESET & BASE ============ */
@@ -47,6 +61,7 @@ body {
     line-height: 1.7;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
+    transition: background 0.1s linear, color 0.1s linear;
 }
 a { color: var(--accent-blue); text-decoration: none; transition: var(--transition); }
 a:hover { color: var(--accent-purple); }
@@ -375,13 +390,29 @@ ul { list-style: none; }
 .back-to-top.show { opacity: 1; visibility: visible; }
 .back-to-top:hover { transform: translateY(-3px); box-shadow: 0 8px 30px rgba(59, 130, 246, 0.5); }
 
+/* ============ MINIMAL PROJECT CARD ============ */
+.project-card-minimal {
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; min-height: 240px; padding: 28px !important;
+}
+.project-card-minimal .project-header { width: 100%; margin-bottom: 20px; }
+.project-card-minimal .project-icon { font-size: 3.5rem; margin-bottom: 12px; }
+.project-card-minimal .project-title { font-size: 1.3rem; margin-bottom: 16px; }
+.project-card-minimal .project-tags { justify-content: center; }
+
 /* ============ ANIMATIONS ============ */
 @keyframes fadeInDown { from { opacity: 0; transform: translateY(-20px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes scrollPulse { 0% { transform: scale(1); } 50% { transform: scale(1.02); } 100% { transform: scale(1); } }
 
 /* Scroll reveal animation */
 .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
+
+/* Scroll-driven animation — elements animate on scroll */
+.scroll-animate {
+    animation: scrollPulse 0.6s ease forwards;
+}
 
 /* ============ RESPONSIVE ============ */
 @media (max-width: 768px) {
