@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dilip Kumar — AI Systems Engineer & Data Scientist</title>
+    <meta name="description" content="Portfolio of Rathlavath Dilip Kumar — AI Systems Engineer, Data Scientist, Dual-Degree Scholar at IIT Madras & KMIT. Building intelligent systems at the intersection of AI, Data Science & Robotics.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- ==================== TOAST NOTIFICATION ==================== -->
+    <div id="toast" class="toast" aria-live="polite"></div>
+
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">DK<span class="logo-dot">.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link nav-cta" id="navResumeBtn">Download Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="hero-orb hero-orb-1"></div>
+            <div class="hero-orb hero-orb-2"></div>
+            <div class="hero-orb hero-orb-3"></div>
+            <div class="hero-grid"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Open for AI & Data Science Internships
+            </div>
+            <h1 class="hero-title">
+                <span class="hero-greeting">Hi, I'm</span>
+                <span class="hero-name">Dilip Kumar</span>
+            </h1>
+            <p class="hero-subtitle">Building Intelligent Systems at the Intersection of <span class="gradient-text">AI, Data Science & Robotics</span></p>
+            <p class="hero-tagline">
+                <span class="typing-text" id="typingText"></span><span class="typing-cursor">|</span>
+            </p>
+            <div class="hero-ctas">
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> Explore Projects</a>
+                <a href="#" class="btn btn-secondary" id="heroResumeBtn"><i class="fas fa-file-alt"></i> View Resume</a>
+                <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Get in Touch</a>
+            </div>
+            <div class="hero-socials">
+                <a href="https://github.com/dilipkumar104" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rathlavath-dilip-kumar-bb68b0343/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:dilip104td@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"><div class="mouse-wheel"></div></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="section" id="about">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">👨‍💻</span> About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="about-lead">I'm a <strong>Computer Science & Data Science</strong> dual-degree student at <strong>IIT Madras</strong> and <strong>KMIT</strong>, passionate about building systems that are both <em>mathematically rigorous</em> and <em>practically impactful</em>.</p>
+                    <p>My work spans <strong>applied machine learning</strong> — from statistical anomaly detection in semiconductor screening (Smart India Hackathon) to sports prediction models — <strong>full-stack AI platforms</strong> with LLM orchestration and real-time dashboards, and <strong>swarm robotics</strong> with ROS 2 on Raspberry Pi.</p>
+                    <p>I thrive at the intersection of theory and engineering: turning probability distributions into production-grade anomaly engines, and turning research papers into working multi-robot coordination systems.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🎓</div>
+                            <div class="highlight-text">
+                                <strong>Dual Degree</strong>
+                                <span>IIT Madras + KMIT</span>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🏏</div>
+                            <div class="highlight-text">
+                                <strong>81.19% Accuracy</strong>
+                                <span>IPL ML Predictor</span>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🤖</div>
+                            <div class="highlight-text">
+                                <strong>Swarm Robotics</strong>
+                                <span>ROS 2 + Raspberry Pi</span>
+                            </div>
+                        </div>
+                        <div class="highlight-card">
+                            <div class="highlight-icon">🔬</div>
+                            <div class="highlight-text">
+                                <strong>SIH Finalist</strong>
+                                <span>Semiconductor AI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="section section-alt" id="education">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">🎓</span> Academic Foundation</h2>
+            <div class="education-grid">
+                <div class="edu-card edu-card-primary">
+                    <div class="edu-badge">Dual Degree Track</div>
+                    <div class="edu-logo">🏛️</div>
+                    <h3>BS in Data Science & Applications</h3>
+                    <p class="edu-institution">Indian Institute of Technology, Madras (Online)</p>
+                    <p class="edu-year">Expected 2029</p>
+                    <div class="edu-courses">
+                        <span class="course-tag">Statistics & Probability</span>
+                        <span class="course-tag">Inferential Analysis</span>
+                        <span class="course-tag">Mathematical Thinking</span>
+                        <span class="course-tag">Data Science Foundations</span>
+                        <span class="course-tag">PDSA</span>
+                        <span class="course-tag">DBMS</span>
+                    </div>
+                </div>
+                <div class="edu-card edu-card-primary">
+                    <div class="edu-badge">Core Engineering</div>
+                    <div class="edu-logo">🎓</div>
+                    <h3>B.Tech in Computer Science Engineering</h3>
+                    <p class="edu-institution">Keshav Memorial Institute of Technology (KMIT)</p>
+                    <p class="edu-year">Expected 2029</p>
+                    <div class="edu-gpa"><span class="gpa-number">9.3</span> CGPA</div>
+                    <div class="edu-courses">
+                        <span class="course-tag">Data Structures & Algorithms</span>
+                        <span class="course-tag">Object-Oriented Engineering</span>
+                        <span class="course-tag">Systems Architecture</span>
+                        <span class="course-tag">Java Programming</span>
+                    </div>
+                </div>
+                <div class="edu-card edu-card-secondary">
+                    <div class="edu-logo">📚</div>
+                    <h3>Narayana Jr. College</h3>
+                    <p class="edu-institution">Intermediate (2021 – 2023)</p>
+                    <div class="edu-gpa"><span class="gpa-number">88.4</span>%</div>
+                </div>
+                <div class="edu-card edu-card-secondary">
+                    <div class="edu-logo">🏫</div>
+                    <h3>Bhashyam High School</h3>
+                    <p class="edu-institution">6th – 10th (2021)</p>
+                    <div class="edu-gpa"><span class="gpa-number">10</span> CGPA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== PROJECTS SECTION ==================== -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">🚀</span> Featured Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ai">AI & Data Science</button>
+                <button class="filter-btn" data-filter="robotics">Robotics & Systems</button>
+                <button class="filter-btn" data-filter="web">Web & Tools</button>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1: SIH Semiconductor -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-header">
+                        <div class="project-icon">🔬</div>
+                        <div class="project-links">
+                            <a href="https://github.com/dilipkumar104/temp-sih26170" target="_blank" rel="noopener" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SIH26170: Semiconductor Anomaly Detection</h3>
+                    <p class="project-subtitle">Smart India Hackathon • Unsupervised In-Lot Learning</p>
+                    <p class="project-desc">A 5-step mathematical pipeline using Dual Z-Scores (Standard Z + Robust MAD Z) with Sigmoid scoring for real-time semiconductor wafer screening. Identifies "static-pass" population outliers at the 99.6th percentile — entirely client-side, zero-latency in-browser execution.</p>
+                    <div class="project-metrics">
+                        <div class="metric"><span class="metric-value">99.6<sup>th</sup></span><span class="metric-label">Percentile Detection</span></div>
+                        <div class="metric"><span class="metric-value">1,000</span><span class="metric-label">Components Screened</span></div>
+                        <div class="metric"><span class="metric-value">0ms</span><span class="metric-label">Latency (In-Browser)</span></div>
+                    </div>
+                    <div class="project-tags">
+                        <span>TypeScript</span><span>Statistical Modeling</span><span>Z-Score</span><span>MAD</span><span>Sigmoid</span><span>In-Browser ML</span>
+                    </div>
+                </div>
+
+                <!-- Project 2: CivicAI -->
+                <div class="project-card" data-category="web">
+                    <div class="project-header">
+                        <div class="project-icon">🏛️</div>
+                        <div class="project-links">
+                            <a href="#" aria-label="Private Repository"><i class="fas fa-lock"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">CivicAI: AI-Powered Civic Complaint Platform</h3>
+                    <p class="project-subtitle">Full-Stack • Gemini Vision • Real-time Dashboard</p>
+                    <p class="project-desc">A multimodal AI platform where citizens photograph civic issues via a Flutter mobile app. The AI pipeline (Google Gemini Pro Vision) auto-categorizes, scores priority (0–100), and routes complaints to city departments. Officers manage queues through a React dashboard with real-time WebSocket updates and a live City Health Score.</p>
+                    <div class="project-metrics">
+                        <div class="metric"><span class="metric-value">4</span><span class="metric-label">AI Pipeline Stages</span></div>
+                        <div class="metric"><span class="metric-value">Live</span><span class="metric-label">WebSocket Updates</span></div>
+                        <div class="metric"><span class="metric-value">0–100</span><span class="metric-label">Priority Scoring</span></div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Flutter</span><span>FastAPI</span><span>Gemini Vision</span><span>PostgreSQL</span><span>GCP Cloud Run</span><span>React</span><span>WebSockets</span>
+                    </div>
+                </div>
+
+                <!-- Project 3: SWARM-X -->
+                <div class="project-card" data-category="robotics">
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <div class="project-links">
+                            <a href="https://github.com/dilipkumar104/SWARM-X" target="_blank" rel="noopener" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SWARM-X: Autonomous Swarm Robotics</h3>
+                    <p class="project-subtitle">ROS 2 Humble • Raspberry Pi 4 • Multi-Agent Control</p>
+                    <p class="project-desc">A ROS 2 Humble framework for swarm robotics on Ubuntu 22.04, featuring autonomous navigation, Raspberry Pi 4 hardware integration, and decentralized /cmd_vel velocity control for coordinated multi-robot operations.</p>
+                    <div class="project-metrics">
+                        <div class="metric"><span class="metric-value">ROS 2</span><span class="metric-label">Framework</span></div>
+                        <div class="metric"><span class="metric-value">Multi</span><span class="metric-label">Agent Coordination</span></div>
+                        <div class="metric"><span class="metric-value">RPi 4</span><span class="metric-label">Hardware</span></div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Python</span><span>ROS 2</span><span>Ubuntu</span><span>Raspberry Pi</span><span>Autonomous Nav</span><span>Gazebo</span>
+                    </div>
+                </div>
+
+                <!-- Project 4: IPL Predictor -->
+                <div class="project-card" data-category="ai">
+                    <div class="project-header">
+                        <div class="project-icon">🏏</div>
+                        <div class="project-links">
+                            <a href="https://github.com/dilipkumar104/IPL-Match-Predictor" target="_blank" rel="noopener" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">IPL Match Outcome Predictor</h3>
+                    <p class="project-subtitle">Machine Learning • Feature Engineering • Binary Classification</p>
+                    <p class="project-desc">Built an IPL match prediction model analyzing 1,090+ matches, boosting accuracy from a 43% multi-class baseline to 81.19% by reformulating as binary classification. Team win rates accounted for 60% of model weight vs. under 10% for toss advantage.</p>
+                    <div class="project-metrics">
+                        <div class="metric"><span class="metric-value">81.19%</span><span class="metric-label">Test Accuracy</span></div>
+                        <div class="metric"><span class="metric-value">1,090+</span><span class="metric-label">Matches Analyzed</span></div>
+                        <div class="metric"><span class="metric-value">+38%</span><span class="metric-label">Accuracy Boost</span></div>
+                    </div>
+                    <div class="project-tags">
+                        <span>Python</span><span>Scikit-Learn</span><span>Pandas</span><span>Logistic Regression</span><span>Random Forest</span>
+                    </div>
+                </div>
+
+                <!-- Project 5: WinFlashCache -->
+                <div class="project-card" data-category="web">
+                    <div class="project-header">
+                        <div class="project-icon">💽</div>
+                        <div class="project-links">
+                            <a href="https://github.com/dilipkumar104/WinFlashCache" target="_blank" rel="noopener" aria-label="View on GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">WinFlashCache</h3>
+                    <p class="project-subtitle">CLI Tool • Persistent Key-Value Store</p>
+                    <p class="project-desc">A command-line interface tool where users can store, retrieve, and delete data using keys, with data persisting across terminal sessions. Built in Python with efficient file-based storage.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>CLI</span><span>Persistent Storage</span><span>Key-Value</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== ANOMALY DETECTION VISUALIZER ==================== -->
+    <section class="section section-alt" id="visualizer">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">📊</span> Interactive: Anomaly Detection Engine</h2>
+            <p class="section-subtitle">Experience the Dual Z-Score mathematical pipeline from my SIH Semiconductor project — drag the slider to see how outliers are identified in real-time.</p>
+            <div class="visualizer-container">
+                <div class="viz-controls">
+                    <label for="anomalySlider">Component Leakage Current (μA):</label>
+                    <input type="range" id="anomalySlider" min="5" max="35" step="0.1" value="10.5">
+                    <span class="slider-value" id="sliderValue">10.5 μA</span>
+                </div>
+                <div class="viz-results">
+                    <div class="viz-card">
+                        <div class="viz-label">Lot Median (μ)</div>
+                        <div class="viz-value">10.5 μA</div>
+                    </div>
+                    <div class="viz-card">
+                        <div class="viz-label">Standard Z-Score</div>
+                        <div class="viz-value" id="zScore">0.00</div>
+                    </div>
+                    <div class="viz-card">
+                        <div class="viz-label">MAD Z-Score</div>
+                        <div class="viz-value" id="madZScore">0.00</div>
+                    </div>
+                    <div class="viz-card">
+                        <div class="viz-label">Anomaly Score</div>
+                        <div class="viz-value" id="anomalyScore">0.00</div>
+                    </div>
+                    <div class="viz-card viz-card-wide">
+                        <div class="viz-label">Risk Classification</div>
+                        <div class="viz-value viz-risk" id="riskLevel">✅ Normal</div>
+                    </div>
+                </div>
+                <div class="viz-bar-container">
+                    <div class="viz-bar">
+                        <div class="viz-bar-fill" id="vizBarFill"></div>
+                        <div class="viz-bar-marker" id="vizBarMarker"></div>
+                    </div>
+                    <div class="viz-bar-labels">
+                        <span>Normal</span><span>Elevated</span><span>Warning</span><span>Critical</span>
+                    </div>
+                </div>
+                <p class="viz-formula">A = 1 − e<sup>−|Z|²/4</sup> &nbsp;|&nbsp; Z<sub>MAD</sub> = (x − Median) / (1.4826 × MAD)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SKILLS SECTION ==================== -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">🛠️</span> Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-code"></i> Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-level="advanced">Python</span>
+                        <span class="skill-pill" data-level="advanced">C++</span>
+                        <span class="skill-pill" data-level="advanced">SQL</span>
+                        <span class="skill-pill" data-level="intermediate">C</span>
+                        <span class="skill-pill" data-level="intermediate">TypeScript</span>
+                        <span class="skill-pill" data-level="intermediate">JavaScript</span>
+                        <span class="skill-pill" data-level="intermediate">Java</span>
+                        <span class="skill-pill" data-level="intermediate">Bash</span>
+                        <span class="skill-pill" data-level="intermediate">Dart</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-brain"></i> Machine Learning & AI</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-level="advanced">Scikit-Learn</span>
+                        <span class="skill-pill" data-level="advanced">Pandas</span>
+                        <span class="skill-pill" data-level="advanced">NumPy</span>
+                        <span class="skill-pill" data-level="intermediate">PyTorch</span>
+                        <span class="skill-pill" data-level="intermediate">Gemini Vision API</span>
+                        <span class="skill-pill" data-level="intermediate">LLM Orchestration</span>
+                        <span class="skill-pill" data-level="advanced">Statistical Modeling</span>
+                        <span class="skill-pill" data-level="advanced">Hypothesis Testing</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-robot"></i> Robotics & IoT</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-level="intermediate">ROS 2 Humble</span>
+                        <span class="skill-pill" data-level="intermediate">Raspberry Pi</span>
+                        <span class="skill-pill" data-level="intermediate">Gazebo</span>
+                        <span class="skill-pill" data-level="intermediate">Autonomous Navigation</span>
+                        <span class="skill-pill" data-level="intermediate">Swarm Coordination</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-server"></i> Backend & Cloud</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-level="intermediate">FastAPI</span>
+                        <span class="skill-pill" data-level="intermediate">PostgreSQL</span>
+                        <span class="skill-pill" data-level="intermediate">MongoDB</span>
+                        <span class="skill-pill" data-level="intermediate">Docker</span>
+                        <span class="skill-pill" data-level="intermediate">Google Cloud Platform</span>
+                        <span class="skill-pill" data-level="intermediate">Firebase</span>
+                        <span class="skill-pill" data-level="intermediate">WebSockets</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-tools"></i> Tools & Practices</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-level="advanced">Git & GitHub</span>
+                        <span class="skill-pill" data-level="advanced">VS Code</span>
+                        <span class="skill-pill" data-level="advanced">Jupyter Notebook</span>
+                        <span class="skill-pill" data-level="intermediate">Linux</span>
+                        <span class="skill-pill" data-level="intermediate">MATLAB</span>
+                        <span class="skill-pill" data-level="intermediate">GitHub Actions CI/CD</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title"><i class="fas fa-layer-group"></i> Frontend & Mobile</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill" data-level="intermediate">React</span>
+                        <span class="skill-pill" data-level="intermediate">Flutter</span>
+                        <span class="skill-pill" data-level="intermediate">HTML/CSS</span>
+                        <span class="skill-pill" data-level="intermediate">Vite</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EXPERIENCE SECTION ==================== -->
+    <section class="section section-alt" id="experience">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">🏆</span> Experience & Achievements</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2026</div>
+                        <h3>Smart India Hackathon (SIH) — Semiconductor Anomaly Detection</h3>
+                        <p>Developed an unsupervised in-lot anomaly detection engine for semiconductor screening using Dual Z-Scores and Sigmoid normalization. The system identifies population outliers that pass traditional static datasheet limits — all running at zero-latency client-side in the browser.</p>
+                        <div class="timeline-tags"><span>TypeScript</span><span>Statistical ML</span><span>In-Browser Compute</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2026</div>
+                        <h3>CivicAI — AI-Powered City Governance Platform</h3>
+                        <p>Architected a full-stack AI platform with Flutter mobile app, FastAPI microservices on GCP Cloud Run, Gemini Vision for auto-triage, and a React real-time officer dashboard with live City Health Scoring.</p>
+                        <div class="timeline-tags"><span>Full-Stack</span><span>Gemini AI</span><span>GCP</span><span>System Design</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2026</div>
+                        <h3>SWARM-X — ROS 2 Multi-Robot Coordination</h3>
+                        <p>Built a ROS 2 Humble framework for autonomous swarm robotics on Raspberry Pi 4, implementing decentralized velocity control and multi-agent coordination algorithms.</p>
+                        <div class="timeline-tags"><span>ROS 2</span><span>Raspberry Pi</span><span>Autonomous Systems</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2026</div>
+                        <h3>Hackathon Participant — Multiple Events</h3>
+                        <p>Active participant across multiple hackathons focused on time-bound problem solving and collaborative development. Built functional solutions under tight deadlines with hands-on exposure to practical software and data implementation.</p>
+                        <div class="timeline-tags"><span>Problem Solving</span><span>Teamwork</span><span>Rapid Prototyping</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2026</div>
+                        <h3>iHub-Data Cross-Skilling Programme</h3>
+                        <p>Selected for iHub-Data's Cross-Skilling Programs for Marginalised Communities, gaining specialized training in data science and applied computing methodologies.</p>
+                        <div class="timeline-tags"><span>Data Science</span><span>Cross-Skilling</span><span>iHub-Data</span></div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">2025</div>
+                        <h3>Began Dual-Degree Track — IIT Madras + KMIT</h3>
+                        <p>Commenced parallel studies in BS Data Science & Applications (IIT Madras) and B.Tech CSE (KMIT), achieving 9.3 CGPA in the engineering programme while building foundational projects.</p>
+                        <div class="timeline-tags"><span>IIT Madras</span><span>KMIT</span><span>9.3 CGPA</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT SECTION ==================== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <h2 class="section-title"><span class="section-icon">📬</span> Get in Touch</h2>
+            <p class="section-subtitle">I'm always open to discussing new projects, collaborations, or internship opportunities. Feel free to reach out!</p>
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <div class="contact-card" data-copy="dilip104td@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>dilip104td@gmail.com</p>
+                        <span class="copy-hint">Click to copy</span>
+                    </div>
+                    <div class="contact-card" data-copy="+91 62810 55225">
+                        <i class="fas fa-phone"></i>
+                        <h4>Phone</h4>
+                        <p>+91 62810 55225</p>
+                        <span class="copy-hint">Click to copy</span>
+                    </div>
+                    <a href="https://www.linkedin.com/in/rathlavath-dilip-kumar-bb68b0343/" target="_blank" rel="noopener" class="contact-card contact-card-link">
+                        <i class="fab fa-linkedin-in"></i>
+                        <h4>LinkedIn</h4>
+                        <p>rathlavath-dilip-kumar</p>
+                        <span class="copy-hint">Open profile →</span>
+                    </a>
+                    <a href="https://github.com/dilipkumar104" target="_blank" rel="noopener" class="contact-card contact-card-link">
+                        <i class="fab fa-github"></i>
+                        <h4>GitHub</h4>
+                        <p>dilipkumar104</p>
+                        <span class="copy-hint">View repos →</span>
+                    </a>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="formName" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="formEmail" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="formMessage" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full"><i class="fas fa-paper-plane"></i> Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="footer-logo">DK<span class="logo-dot">.</span></a>
+                    <p>Building intelligent systems that bridge software and hardware.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#education">Education</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="https://github.com/dilipkumar104" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/rathlavath-dilip-kumar-bb68b0343/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:dilip104td@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Dilip Kumar. Crafted with passion and precision.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== BACK TO TOP ==================== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
