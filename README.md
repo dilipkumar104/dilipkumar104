@@ -14,7 +14,7 @@
 
 <!-- SOCIAL LINKS -->
 <p>
-<a href="https://dilipkumar104.github.io/portfolio/">
+<a href="https://dilipkumar104.github.io/">
 <img src="https://img.shields.io/badge/🌐_Live_Portfolio-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio Website"/>
 </a>
 &nbsp;
