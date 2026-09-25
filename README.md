@@ -1,11 +1,11 @@
 <div align="center">
 
 <!-- ANIMATED HEADER BANNER -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Dilip%20Kumar&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=AI%20Systems%20Engineer%20%E2%80%A2%20Backend%20Architect%20%E2%80%A2%20Robotics%20Builder&descSize=16&descAlignY=52&descAlign=50"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Dilip%20Kumar&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=30&fontAlign=50&desc=AI%20Systems%20Engineer%20%E2%80%A2%20Backend%20Architect%20%E2%80%A2%20Robotics%20Builder&descSize=18&descAlignY=55&descAlign=50&fontFamily=Fira%20Code"/>
 
 <!-- TYPING SVG ANIMATION -->
 <p>
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%94%A5+Building+High-Performance+AI+Pipelines;%F0%9F%A7%A0+Engineering+Agentic+AI+Memory+Systems;%F0%9F%A4%96+Developing+Swarm+Robotics+with+ROS2;%F0%9F%92%BE+Designing+Graph+%26+Vector+Databases;%E2%9A%A1+Crafting+Developer+Tools+%26+CLIs" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=650&height=100&lines=%F0%9F%94%A5+Building+High-Performance+AI+Pipelines;%F0%9F%A7%A0+Engineering+Agentic+AI+Memory+Systems;%F0%9F%A4%96+Developing+Swarm+Robotics+with+ROS2;%F0%9F%92%BE+Designing+Graph+%26+Vector+Databases;%E2%9A%A1+Crafting+Developer+Tools+%26+CLIs" alt="Typing SVG" />
 </p>
 
 <!-- PROFILE VIEWS & SOCIAL BADGES -->
@@ -51,18 +51,18 @@ education: Computer Science Engineering
 
 currently_working_on:
   - "🧠 Agentic AI memory systems & LLM orchestration"
-  - "⚡ High-performance AI pipeline engines (C++ core)"
+  - "⚡ High-performance AI pipeline engines"
   - "🤖 Swarm robotics with ROS 2 & Raspberry Pi"
 
 expertise:
   ai_engineering:
-    - "Architecting LLM workflows with 13+ model providers"
+    - "Architecting LLM workflows with multiple model providers"
     - "Building agentic AI memory systems"
-    - "ML prediction models (Logistic Regression, Random Forest)"
+    - "ML prediction models & feature engineering"
   
   backend_systems:
     - "High-performance pipeline engines with C++ core"
-    - "Graph databases on object storage"
+    - "Graph & vector databases"
     - "CLI tools with persistent data storage"
   
   robotics:
@@ -124,94 +124,6 @@ fun_fact: "I bridge the gap between intelligent software and physical robots �
 
 ---
 
-<!-- FEATURED PROJECTS -->
-## 🚀 Featured Projects
-
-<div align="center">
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> rocketride-server
-<p>
-<a href="https://github.com/dilipkumar104/rocketride-server">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dilipkumar104&repo=rocketride-server&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9" alt="rocketride-server"/>
-</a>
-</p>
-<p><b>⚡ High-performance AI pipeline engine</b></p>
-<p><code>C++ Core</code> <code>50+ Python Nodes</code> <code>13+ LLM Providers</code> <code>8+ Vector DBs</code></p>
-
-</td>
-<td width="50%" valign="top">
-
-### 🧠 hindsight
-<p>
-<a href="https://github.com/dilipkumar104/hindsight">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dilipkumar104&repo=hindsight&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9" alt="hindsight"/>
-</a>
-</p>
-<p><b>🧬 Agent Memory That Learns</b></p>
-<p><code>Agentic AI</code> <code>Memory Systems</code> <code>LLM Integration</code></p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🦾 SWARM-X
-<p>
-<a href="https://github.com/dilipkumar104/SWARM-X">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dilipkumar104&repo=SWARM-X&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9" alt="SWARM-X"/>
-</a>
-</p>
-<p><b>🤖 ROS 2 Swarm Robotics Framework</b></p>
-<p><code>ROS 2 Humble</code> <code>Raspberry Pi 4</code> <code>Autonomous Nav</code></p>
-
-</td>
-<td width="50%" valign="top">
-
-### 🕸️ hydradb
-<p>
-<a href="https://github.com/dilipkumar104/hydradb">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dilipkumar104&repo=hydradb&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9" alt="hydradb"/>
-</a>
-</p>
-<p><b>💾 Fast Graph DB on Object Storage</b></p>
-<p><code>Graph Database</code> <code>Object Storage</code> <code>High Performance</code></p>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏏 IPL-Match-Predictor
-<p>
-<a href="https://github.com/dilipkumar104/IPL-Match-Predictor">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dilipkumar104&repo=IPL-Match-Predictor&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9" alt="IPL-Match-Predictor"/>
-</a>
-</p>
-<p><b>📊 ML-Powered Match Prediction (81% Accuracy)</b></p>
-<p><code>Python</code> <code>Scikit-Learn</code> <code>Feature Engineering</code></p>
-
-</td>
-<td width="50%" valign="top">
-
-### 🔧 WinFlashCache
-<p>
-<a href="https://github.com/dilipkumar104/WinFlashCache">
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=dilipkumar104&repo=WinFlashCache&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9" alt="WinFlashCache"/>
-</a>
-</p>
-<p><b>💽 Persistent Key-Value CLI Tool</b></p>
-<p><code>Python</code> <code>CLI</code> <code>Persistent Storage</code></p>
-
-</td>
-</tr>
-</table>
-</div>
-
----
-
 <!-- GITHUB STATS -->
 ## 📊 GitHub Analytics
 
@@ -219,22 +131,17 @@ fun_fact: "I bridge the gap between intelligent software and physical robots �
 
 <p>
 <a href="https://github.com/dilipkumar104">
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=dilipkumar104&show_icons=true&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dilipkumar104&layout=compact&theme=react&bg_color=0d1117&hide_border=true&title_color=58A6FF&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api?username=dilipkumar104&show_icons=true&theme=react&bg_color=0d1117&hide_border=true&icon_color=58A6FF&title_color=58A6FF&text_color=c9d1d9&count_private=true&include_all_commits=true" alt="GitHub Stats"/>
+</a>
+<a href="https://github.com/dilipkumar104">
+<img height="180em" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=dilipkumar104&layout=compact&theme=react&bg_color=0d1117&hide_border=true&title_color=58A6FF&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 </a>
 </p>
 
 <!-- STREAK STATS -->
 <p>
 <a href="https://github.com/dilipkumar104">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dilipkumar104&theme=react&background=0d1117&hide_border=true&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e" alt="GitHub Streak"/>
-</a>
-</p>
-
-<!-- ACTIVITY GRAPH -->
-<p>
-<a href="https://github.com/dilipkumar104">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dilipkumar104&bg_color=0d1117&color=58A6FF&line=58A6FF&point=FF6B35&area=true&area_color=58A6FF&hide_border=true" alt="Activity Graph"/>
+<img src="https://streak-stats.demolab.com?user=dilipkumar104&theme=react&background=0d1117&hide_border=true&stroke=58A6FF&ring=58A6FF&fire=FF6B35&currStreakLabel=58A6FF&sideLabels=58A6FF&dates=8b949e" alt="GitHub Streak"/>
 </a>
 </p>
 
