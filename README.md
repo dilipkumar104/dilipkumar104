@@ -14,6 +14,10 @@
 
 <!-- SOCIAL LINKS -->
 <p>
+<a href="https://dilipkumar104.github.io/portfolio/">
+<img src="https://img.shields.io/badge/🌐_Live_Portfolio-00F2FE?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio Website"/>
+</a>
+&nbsp;
 <a href="https://www.linkedin.com/in/rathlavath-dilip-kumar-bb68b0343/">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
