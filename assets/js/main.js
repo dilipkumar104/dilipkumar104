@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'Dual-Degree Scholar: IIT Madras + KMIT',
         'Applied Machine Learning Engineer',
         'Swarm Robotics Developer (ROS 2)',
-        'Semiconductor Anomaly Detection @ SIH',
         'Full-Stack AI Platform Architect',
         'Always Learning Something New'
     ];
@@ -226,7 +225,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // ============ SCROLL REVEAL ============
     const revealElements = document.querySelectorAll(
-        '.about-grid, .edu-card, .project-card, .skill-category, .timeline-item, .contact-card, .visualizer-container, .contact-form-wrapper'
+        '.about-grid, .edu-card, .project-card, .skill-category, .timeline-item, .contact-card, .contact-form-wrapper'
     );
     revealElements.forEach(el => el.classList.add('reveal'));
 
