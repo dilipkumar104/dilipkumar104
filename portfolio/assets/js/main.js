@@ -213,11 +213,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // ============ RESUME BUTTONS ============
-    const resumeAction = () => {
-        showToast('📄 Resume download will be linked after deployment');
-    };
-    document.getElementById('navResumeBtn')?.addEventListener('click', (e) => { e.preventDefault(); resumeAction(); });
-    document.getElementById('heroResumeBtn')?.addEventListener('click', (e) => { e.preventDefault(); resumeAction(); });
+    document.getElementById('navResumeBtn')?.addEventListener('click', () => { showToast('📄 Downloading Resume...'); });
+    document.getElementById('heroResumeBtn')?.addEventListener('click', () => { showToast('📄 Downloading Resume...'); });
 
     // ============ CONTACT FORM ============
     document.getElementById('contactForm')?.addEventListener('submit', (e) => {
